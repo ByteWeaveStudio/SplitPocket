@@ -1,0 +1,61 @@
+# Builds the site on GitHub and publishes the result, so what's live is
+# always what `main` says — no committed build output to go stale.
+#
+# Requires one repo setting: Settings → Pages → Source → "GitHub Actions".
+# Until that's switched, Pages keeps serving the committed docs/ folder and
+# this workflow's deploy step will fail.
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Never publish two builds at once, and never cancel one mid-publish.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          # react-router 8 refuses to run on anything at or below 22.22.0.
+          node-version: 24
+          cache: npm
+
+      - run: npm ci
+
+      # A real gate: a type error should fail the deploy, not ship.
+      - run: npm run typecheck
+
+      # Prerenders every route into docs/, and writes CNAME, .nojekyll,
+      # 404.html and sitemap.xml. Its own guards fail the build if a route
+      # is missing, a post prerenders without a heading, or an OG card is
+      # absent — so those now block the deploy too.
+      - run: npm run build
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,40 @@
+# SplitPocket
+
+> One app for both halves of your money: track what you spend and earn on
+> your own, and split what you share. Create groups, split equally, by exact
+> amounts or by percentage, see who owes whom, and settle up with the fewest
+> payments. Works offline, syncs when you're back, no ads, no data selling.
+
+## Product
+
+- [Home](https://splitpocket.app/): what SplitPocket is, in short, with links to the detail.
+- [Features](https://splitpocket.app/features/): every feature, grouped: personal ledger, groups and splitting, automation, and data.
+- [Groups](https://splitpocket.app/groups/): how group splitting works, the three split methods, and simplified settle-up.
+- [Comparison](https://splitpocket.app/compare/): SplitPocket vs Splitwise, Tricount and Settle Up, row by row, with an FAQ.
+
+## Blog
+
+- [Choosing an expense-splitting app: a checklist](https://splitpocket.app/blog/choosing-an-expense-splitting-app/): Twelve questions to ask before you and five friends commit a whole trip's money to an app you found in ten seconds.
+- [Group expense etiquette: the rules nobody writes down](https://splitpocket.app/blog/group-expense-etiquette/): Nine small agreements that keep shared money from quietly turning into a grudge.
+- [How to read a monthly category report](https://splitpocket.app/blog/read-a-category-report/): Four questions to ask your own numbers, and three traps that make a report tell you the wrong story.
+- [Settling up: UPI, cash, transfers, and recording it right](https://splitpocket.app/blog/settle-up-methods/): Paying is the easy part. Recording it so nobody has to ask again is what keeps a ledger true.
+- [The invisible spend: finding your recurring expenses](https://splitpocket.app/blog/recurring-expenses/): Rent, insurance, four subscriptions and a gym. How to surface the fixed half of your month and decide it once.
+- [Budgets that hold: a monthly line you can see coming](https://splitpocket.app/blog/monthly-budget-that-holds/): Why most budgets fail in week three, and how to set category limits from your own past months instead of from hope.
+- [What your expense app knows about you](https://splitpocket.app/blog/privacy-in-expense-apps/): Spending data is some of the most revealing data there is. What to look for in a policy, and what a private expense app looks like.
+- [The flatmate ledger that survives a whole year](https://splitpocket.app/blog/roommate-expense-system/): Rent, bills, groceries and the surprise plumber. A system you set up in twenty minutes and run in seconds a week.
+- [Multi-currency trips without the rounding mess](https://splitpocket.app/blog/multi-currency-group-expenses/): One group, one currency, three countries. How to convert once, record honestly, and never watch old balances shift.
+- [Why an expense app should work with no signal](https://splitpocket.app/blog/offline-first-expense-tracking/): Basements, flights, foreign SIMs and lifts. What offline-first actually means, and what quietly breaks without it.
+- [Debt simplification, explained with real numbers](https://splitpocket.app/blog/debt-simplification-explained/): How twenty tangled IOUs become four payments, and why nobody's total changes by a single paisa.
+- [Equal, exact, or percentage: choosing how to split](https://splitpocket.app/blog/equal-exact-or-percentage/): The three split methods, when each one is the fair one, and the small mistakes that make friends quietly annoyed.
+- [How to run a group trip's money without a spreadsheet](https://splitpocket.app/blog/group-trip-expenses/): A six-day trip, seven expenses, four people, and one settle-up that reconciles to exactly zero.
+- [Splitting a restaurant bill with tax and tip, exactly](https://splitpocket.app/blog/split-a-restaurant-bill/): Why you split the subtotal first and scale the tax, and how to do the whole thing before the card machine arrives.
+- [How to split rent fairly when the rooms aren't equal](https://splitpocket.app/blog/split-rent-fairly/): Three defensible ways to divide rent between unequal rooms: equally, by area, or by agreement, with the exact math for each.
+
+## Legal
+
+- [Privacy policy](https://splitpocket.app/privacy/): what data is stored, what is never done with it.
+- [Terms](https://splitpocket.app/terms/): terms of use.
+
+## Index
+
+- [Sitemap](https://splitpocket.app/sitemap.xml)

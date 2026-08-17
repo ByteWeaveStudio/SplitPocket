@@ -1,0 +1,124 @@
+{
+  "posts": [
+    {
+      "slug": "choosing-an-expense-splitting-app",
+      "title": "Choosing an expense-splitting app: a checklist",
+      "description": "Twelve questions to ask before you and five friends commit a whole trip's money to an app you found in ten seconds.",
+      "date": "2026-08-11",
+      "minutes": 4,
+      "topic": "Splitting"
+    },
+    {
+      "slug": "group-expense-etiquette",
+      "title": "Group expense etiquette: the rules nobody writes down",
+      "description": "Nine small agreements that keep shared money from quietly turning into a grudge.",
+      "date": "2026-07-28",
+      "minutes": 4,
+      "topic": "Splitting"
+    },
+    {
+      "slug": "read-a-category-report",
+      "title": "How to read a monthly category report",
+      "description": "Four questions to ask your own numbers, and three traps that make a report tell you the wrong story.",
+      "date": "2026-07-09",
+      "minutes": 4,
+      "topic": "Money habits"
+    },
+    {
+      "slug": "settle-up-methods",
+      "title": "Settling up: UPI, cash, transfers, and recording it right",
+      "description": "Paying is the easy part. Recording it so nobody has to ask again is what keeps a ledger true.",
+      "date": "2026-06-25",
+      "minutes": 4,
+      "topic": "Splitting"
+    },
+    {
+      "slug": "recurring-expenses",
+      "title": "The invisible spend: finding your recurring expenses",
+      "description": "Rent, insurance, four subscriptions and a gym. How to surface the fixed half of your month and decide it once.",
+      "date": "2026-06-11",
+      "minutes": 3,
+      "topic": "Money habits"
+    },
+    {
+      "slug": "monthly-budget-that-holds",
+      "title": "Budgets that hold: a monthly line you can see coming",
+      "description": "Why most budgets fail in week three, and how to set category limits from your own past months instead of from hope.",
+      "date": "2026-05-26",
+      "minutes": 4,
+      "topic": "Money habits"
+    },
+    {
+      "slug": "privacy-in-expense-apps",
+      "title": "What your expense app knows about you",
+      "description": "Spending data is some of the most revealing data there is. What to look for in a policy, and what a private expense app looks like.",
+      "date": "2026-05-12",
+      "minutes": 4,
+      "topic": "Privacy"
+    },
+    {
+      "slug": "roommate-expense-system",
+      "title": "The flatmate ledger that survives a whole year",
+      "description": "Rent, bills, groceries and the surprise plumber. A system you set up in twenty minutes and run in seconds a week.",
+      "date": "2026-04-28",
+      "minutes": 4,
+      "topic": "Living together"
+    },
+    {
+      "slug": "multi-currency-group-expenses",
+      "title": "Multi-currency trips without the rounding mess",
+      "description": "One group, one currency, three countries. How to convert once, record honestly, and never watch old balances shift.",
+      "date": "2026-04-09",
+      "minutes": 4,
+      "topic": "Trips"
+    },
+    {
+      "slug": "offline-first-expense-tracking",
+      "title": "Why an expense app should work with no signal",
+      "description": "Basements, flights, foreign SIMs and lifts. What offline-first actually means, and what quietly breaks without it.",
+      "date": "2026-03-26",
+      "minutes": 4,
+      "topic": "How it works"
+    },
+    {
+      "slug": "debt-simplification-explained",
+      "title": "Debt simplification, explained with real numbers",
+      "description": "How twenty tangled IOUs become four payments, and why nobody's total changes by a single paisa.",
+      "date": "2026-03-10",
+      "minutes": 4,
+      "topic": "How it works"
+    },
+    {
+      "slug": "equal-exact-or-percentage",
+      "title": "Equal, exact, or percentage: choosing how to split",
+      "description": "The three split methods, when each one is the fair one, and the small mistakes that make friends quietly annoyed.",
+      "date": "2026-02-24",
+      "minutes": 4,
+      "topic": "Splitting"
+    },
+    {
+      "slug": "group-trip-expenses",
+      "title": "How to run a group trip's money without a spreadsheet",
+      "description": "A six-day trip, seven expenses, four people, and one settle-up that reconciles to exactly zero.",
+      "date": "2026-02-10",
+      "minutes": 4,
+      "topic": "Trips"
+    },
+    {
+      "slug": "split-a-restaurant-bill",
+      "title": "Splitting a restaurant bill with tax and tip, exactly",
+      "description": "Why you split the subtotal first and scale the tax, and how to do the whole thing before the card machine arrives.",
+      "date": "2026-01-22",
+      "minutes": 3,
+      "topic": "Splitting"
+    },
+    {
+      "slug": "split-rent-fairly",
+      "title": "How to split rent fairly when the rooms aren't equal",
+      "description": "Three defensible ways to divide rent between unequal rooms: equally, by area, or by agreement, with the exact math for each.",
+      "date": "2026-01-08",
+      "minutes": 4,
+      "topic": "Living together"
+    }
+  ]
+}

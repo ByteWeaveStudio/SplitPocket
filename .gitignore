@@ -1,0 +1,23 @@
+.DS_Store
+.env
+/node_modules/
+
+# React Router
+/.react-router/
+/build/
+
+# Build output. GitHub Actions runs the build and publishes the result
+# (.github/workflows/deploy.yml), so it is deliberately not committed — there
+# is no copy of it in the repo that can drift from what app/ actually says.
+/docs/
+
+# Screenshot masters (WebP derivatives in public/screenshots/ are committed)
+/assets/raw/
+
+# Claude
+.impeccable
+
+# Internal notes. This repo is public, so the deployment runbook (hosting,
+# DNS, release steps), the brand language and the product brief stay local.
+*.md
+!README.md
