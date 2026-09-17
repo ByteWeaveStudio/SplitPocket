@@ -41,6 +41,7 @@ ${posts
 
 - [Privacy policy](${SITE}/privacy/): what data is stored, what is never done with it.
 - [Terms](${SITE}/terms/): terms of use.
+- [Delete your account](${SITE}/delete-account/): how to delete a SplitPocket account, what is erased and what is kept.
 
 ## Index
 

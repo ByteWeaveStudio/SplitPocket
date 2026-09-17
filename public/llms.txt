@@ -34,6 +34,7 @@
 
 - [Privacy policy](https://splitpocket.app/privacy/): what data is stored, what is never done with it.
 - [Terms](https://splitpocket.app/terms/): terms of use.
+- [Delete your account](https://splitpocket.app/delete-account/): how to delete a SplitPocket account, what is erased and what is kept.
 
 ## Index
 

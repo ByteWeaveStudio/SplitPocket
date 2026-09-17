@@ -30,6 +30,8 @@ export default [
   ...posts.map((slug) => route(`blog/${slug}`, `routes/blog/${slug}.tsx`)),
   route("privacy", "routes/privacy.tsx"),
   route("terms", "routes/terms.tsx"),
+  // Linked from the Google Play listing: must stay reachable without login.
+  route("delete-account", "routes/delete-account.tsx"),
   // Prerendered to /404/index.html; postbuild copies it to docs/404.html,
   // which GitHub Pages serves for any unknown path.
   route("404", "routes/not-found.tsx"),

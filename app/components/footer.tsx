@@ -60,6 +60,14 @@ export function SiteFooter() {
                   Terms
                 </a>
               </li>
+              <li>
+                <a
+                  href="/delete-account/"
+                  className="transition-colors hover:text-foreground"
+                >
+                  Delete account
+                </a>
+              </li>
             </ul>
           </div>
         </nav>

@@ -52,7 +52,15 @@ if (!home.includes("<h1") || !home.includes("SplitPocket")) {
 const { posts } = JSON.parse(readFileSync("app/content/posts.json", "utf8"));
 posts.sort((a, b) => b.date.localeCompare(a.date));
 
-for (const page of ["features", "groups", "privacy", "terms", "compare", "blog"]) {
+for (const page of [
+  "features",
+  "groups",
+  "privacy",
+  "terms",
+  "delete-account",
+  "compare",
+  "blog",
+]) {
   if (!existsSync(`${DEST}/${page}/index.html`)) {
     throw new Error(`docs/${page}/index.html missing from prerender output`);
   }
